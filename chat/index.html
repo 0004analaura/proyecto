@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Chat con firebase</title>
+    
+</head>
+<body>
+    <div class="flex-container-row">
+        <div>
+            <h3>Chat utilizando firebase</h3>         
+        </div>
+    <div>
+        <img id="imagenLogo" src="https://logotipoz.com/wp-content/uploads/2022/11/mariano-galves-sin-fondo-1.webp">
+    </div>
+    </div>
+
+    <div class="flex-container-row">
+     
+            <div>Estas conectado como:</div>
+      
+    </div>
+    <div class="flex-container-row">
+  
+        <div id="usuarioConectado"><b> No conectado </b></div>  
+  
+    </div>
+   
+  <div class="flex-container-row">
+    <button class="botonIniciar" id="botonIniciar">Iniciar sesion</button>
+    <button class="botonCerrar" id="botonCerrar" style="display:none">Cerrar Sesion</button>
+  </div>
+   
+   
+<div class="flex-container-row" >
+    <div id="mensajesChat" >
+        Aca deben aparecer los mensajes 
+    </div>
+</div>
+<div class="flex-container-row" >
+    <input type="text" id="textoMensaje" placeholder="Escribe tu mensaje aqui y presiona Enter">
+</div>   
+    <script src="script.js"type="module"></script>
+</body>
+</html>

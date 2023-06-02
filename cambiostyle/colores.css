@@ -1,0 +1,38 @@
+.estilo1 {
+    color: pink;
+    background-color: aqua;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+.estilo2 {
+    color: cornflowerblue;
+    background-color: darkmagenta;
+    border-radius: 5px;
+    text-align: center;
+}
+  
+.estilo3 {
+    color: darkslateblue;
+    background-color: dimgray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+body.estilo1 {
+    background-color: bisque;
+}
+  
+body.estilo2 {
+    background-color: cornflowerblue;
+}
+  
+body.estilo3 {
+    background-color: deeppink;
+}
+
+#icon{
+    font-size: 35px;
+    color: aqua;
+}

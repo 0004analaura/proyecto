@@ -1,0 +1,20 @@
+body {
+    background-color: beige;
+}
+.titulos {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.titulo1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    font: weight;
+}
+
+#para {
+ color: black;
+ background-color: pink;
+}
+
+#tematica {
+    background-color: burlywood;
+}

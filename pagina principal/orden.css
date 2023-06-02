@@ -1,0 +1,61 @@
+.container {
+    margin: 50px;
+}
+.imagen {
+
+    padding-top: 50px;
+}
+
+.imagen img{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+}
+.informacion-proyecto{
+    float: right;
+    position: absolute;
+    top: 70px;
+    right: 350px;
+    width: 250px;
+    font-size: 20px;
+}
+.informacion-proyecto h2{
+    text-align: center;
+}
+
+.informacion-proyecto p{
+    text-align: justify;
+}
+
+hr{
+    border-color: blue;
+    width: 100%;
+}
+.proyectos{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+.proyectos img{
+    height: auto;
+}
+.proyecto1 img{
+    width: 300px;
+}
+.proyecto2 img{
+    width: 300px;
+}
+.proyecto3 img{
+    width: 200px;
+}
+.proyecto4 img{
+    width: 400px;
+}
+
+.proyecto5 img{
+    width: 400px;
+}
+
+body{
+background-color: darkgrey;    
+}
